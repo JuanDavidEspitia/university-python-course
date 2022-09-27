@@ -90,6 +90,54 @@ if edad >= 18:
 else:
     print("Es menor de edad")
 
+"""
+Operadores Logicos:
+AND: Devuelve TRUE si ambos operandos son TRUE
+OR: Devuelve TRUE si alguno de los operandos es TRUE
+NOT: Devuelve TRUE si algino de los operandos son FALSE
+"""
+
+a = True
+b = True
+res = a and b
+print(res)
+
+c = True
+d = False
+res1 = c or d
+print(res1)
+
+e = True
+res2 = not e
+print(res2)
+
+vacaciones = True
+diaDescanzo = False
+
+if not (vacaciones or diaDescanzo):
+    print("No puede asistir al juego")
+else:
+    print("Puede asistir al juego")
+
+
+"""
+Instrucciones de tareas:
+Solicitar al usuario dos valores, y determinar cual número es el mayor
+Solicitar al usuario dos valores:
+numero1 (int)
+numero2 (int)
+Se debe imprimir el mayor de los dos números (la salida debe ser identica a la que sigue):
+Proporciona el numero1:
+Proporciona el numero2:
+El numero mayor es:<numeroMayor>
+"""
+numero1 = int(input("Proporciona el Número 1:"))
+numero2 = int(input("Proporciona el Número 2:"))
+
+if numero1 > numero2:
+    print("Número 1 es mayor")
+else:
+    print("Número 2 es mayor")
 
 
 
