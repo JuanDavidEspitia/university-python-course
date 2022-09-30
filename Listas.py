@@ -1,6 +1,8 @@
 # Una LISTA es un conjunto de elementos
 # De diferentes tipos de datos
 # las listas se componen de indices
+# las Listas son Mutables
+# Almacenan datos en orden
 
 # Declaramos una lista
 nombres = ['Juan', 'Karla', 'Ricardo', 'Maria', 0,  100, True]
