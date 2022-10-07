@@ -97,6 +97,29 @@ def multiplicar_valores(*numeros):
 print(multiplicar_valores(3,5,15,3))
 
 
+# Ahora si queremos una funcion que reciba paramtros clave:valor debe ser de la siguiente forma
+# Se coloca con doble ** y es para elementos de llave:valor, es decir retorna un diccionario
+def listarTerminos(**terminos):
+    for llave, valor in terminos.items():
+        print(f'{llave}: {valor}')
+
+
+listarTerminos(IDE='Integrated Development Enviroment', OOP='Object Oriented Programing',
+               DBMS= 'Data Base Managment System')
+
+# Ejemplo de envio de un diccionario como argumentos
+kwargs = {"arg3": 3, "arg2": "dos", "arg1": 5}
+listarTerminos(**kwargs)
+
+diccionario = {
+    'IDE': 'Integrated Development Enviroment',
+    'OOP': 'Object Oriented Programing',
+    'DBMS': 'Data Base Managment System'
+}
+listarTerminos(**diccionario)
+
+
+
 
 
 
