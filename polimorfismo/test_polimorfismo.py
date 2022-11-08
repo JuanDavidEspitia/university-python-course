@@ -1,6 +1,7 @@
 from Empleado import Empleado
 from Gerente import Gerente
 
+# Polimorfismo es multiples formas en tiempo de ejecucion
 
 def imprimir_detalles(objeto):
     # print(objeto)
