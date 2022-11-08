@@ -20,7 +20,11 @@ if __name__ == '__main__':
     monitor3 = Monitor('Acer',34)
     computadora3 = Computadora('Acer', monitor3,teclado3,raton3)
 
-    list_computadoras = [computadora1, computadora2, computadora3]
-    orden1 = Orden(list_computadoras)
+    list_computadoras1 = [computadora1, computadora2]
+    list_computadoras2 = [computadora1, computadora2, computadora3]
+    orden1 = Orden(list_computadoras1)
+    orden2 = Orden(list_computadoras2)
+
     print(orden1)
+    print(orden2)
 
